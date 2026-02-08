@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'hairbook.urls'
+ROOT_URLCONF = 'glamSoft.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'hairbook.wsgi.application'
+WSGI_APPLICATION = 'glamSoft.wsgi.application'
+ASGI_APPLICATION = 'glamSoft.asgi.application'
 
 
 # Database
